@@ -1,9 +1,10 @@
+//c program to perform binary search
 #include <stdio.h>
 void main(){
 int ar[5]={10,20,30,40,50};
 int mid,low=0,high=4,key,flag=0;
 
-  printf("enter the key to search\n");
+  printf("Enter the key value to search\n");
   scanf("%d",&key);
   while (low<=high) {
     mid=(low+high)/2;
@@ -20,7 +21,7 @@ int mid,low=0,high=4,key,flag=0;
 
   }
   if (flag==1){
-    printf("element found");
+    printf("element found in the list");
 
   }
   else{
