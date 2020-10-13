@@ -45,12 +45,12 @@ int main()
     }
     else
     {
-        printf("The %d is not an armstrong number.\n",n);
+        printf("sorry The %d is not an armstrong number.\n",n);
     }
 
     if(Perfect(n))
     {
-        printf("The %d is a perfect number\n",n);
+        printf("The %d is a perfect number try out another\n",n);
     }
     else
     {
