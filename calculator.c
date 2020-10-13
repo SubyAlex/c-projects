@@ -1,4 +1,4 @@
- 
+ //program to perform calculator operations
 #include <stdio.h>
  
 int main()
@@ -7,12 +7,12 @@ int main()
     float result;
     char ch;    //to store operator choice
      
-    printf("Enter first number: ");
+    printf("please enter first number: ");
     scanf("%d",&num1);
-    printf("Enter second number: ");
+    printf("please enter second number: ");
     scanf("%d",&num2);
      
-    printf("Choose operation to perform (+,-,*,/,%): ");
+    printf("Choose operations to perform from the given options(+,-,*,/,%): ");
     scanf(" %c",&ch);
      
     result=0;
