@@ -1,0 +1,29 @@
+#include <stdio.h>
+void main(){
+int ar[5]={10,20,30,40,50};
+int mid,low=0,high=4,key,flag=0;
+
+  printf("enter the key to search\n");
+  scanf("%d",&key);
+  while (low<=high) {
+    mid=(low+high)/2;
+    if (key==ar[mid]){
+      flag=1;
+      break;
+    }
+    else if(key<ar[mid]){
+      high=mid-1;
+    }
+    else {
+      low=mid+1;
+    }
+
+  }
+  if (flag==1){
+    printf("element found");
+
+  }
+  else{
+    printf("element not found");
+  }
+}
